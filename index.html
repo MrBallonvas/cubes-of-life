@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubes of Life</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Cubes of Life</h1>
+        </header>
+
+        <main class="main">
+            <section class="form" id="form">
+                <div class="error hide" id="error"></div>
+                <form>
+                    <div class="form-input">
+                        <label for="date">Input date of birth</label>
+                        <input type="date" name="date" id="dateInput">
+                    </div>
+
+                    <button type="button" id="drawButton">
+                        Gen
+                    </button>
+                </form>
+            </section>
+
+            <section class="cubes" id="cubes">
+                <div class="draw" id="draw"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© Vasiliy <a href="https://shevluk.ru">Shevluk</a>, 2021 - 2023</p>
+            <p><a href="mailto:mrballon@yandex.ru">E-Mail</a></p>
+        </footer>
+    </div>
+
+    <script src="./index.js" defer></script>
+</body>
+
+</html>
